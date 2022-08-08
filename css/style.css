@@ -575,6 +575,7 @@ body {
 }
 
 .address-list__item { margin-bottom: 9px; }
+.address-list__item:last-of-type { margin-bottom: 0; }
 
 .address-list__link {
     font-size: 14px;
