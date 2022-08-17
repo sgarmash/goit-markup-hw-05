@@ -85,7 +85,7 @@ body {
     color: var(--color-black);
 }
 
-.logo span { color: var(--color-blue); }
+.logo__text--blue { color: var(--color-blue); }
 
 /* Styles for the header element */
 
@@ -586,6 +586,12 @@ body {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms ease-in-out;
+}
+
+.address-list__link:hover,
+.address-list__link:focus {
+    color: var(--color-blue);
 }
 
 /* Styled for Modal */
