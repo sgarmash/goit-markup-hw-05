@@ -87,6 +87,10 @@ body {
 
 .logo__text--blue { color: var(--color-blue); }
 
+.header .logo {
+    padding: 24px 0;
+}
+
 /* Styles for the header element */
 
 .header { border-bottom: 1px solid var(--color-bright-gray); }
@@ -168,6 +172,7 @@ body {
 .header-contact__link {
     display: inline-flex;
     align-items: center;
+    padding: 32px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 0.875;
@@ -289,7 +294,7 @@ body {
     background: var(--persian-blue);
 }
 
-.features {padding-top: 94px;}
+.services {padding-bottom: 94px;}
 
 /* Styles for the About us section element */
 
@@ -454,9 +459,8 @@ body {
 
 .portfolio-item__content {
     padding: 20px 24px;
-    border-left: 1px solid var(--color-bright-gray);
-    border-right: 1px solid var(--color-bright-gray);
-    border-bottom: 1px solid var(--color-bright-gray);   
+    border: 1px solid var(--color-bright-gray);
+    border-top: none;
 }
 
 .portfolio-item__box {
