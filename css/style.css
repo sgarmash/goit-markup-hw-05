@@ -523,6 +523,7 @@ body {
     border: 1px solid var(--color-solid-green);
     fill: var(--color-solid-green);
     transition: border 250ms ease-in-out, fill 250ms ease-in-out;
+    outline: transparent;
 }
 
  .clients-link:hover,
